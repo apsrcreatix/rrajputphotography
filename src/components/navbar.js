@@ -7,10 +7,10 @@ const NavBar = () => {
 
     const open = " is-active";
     const hide = "";
-    return <nav className="navbar" role="navigation" aria-label="main navigation" style={{ margin: "0px -32px" }}>
+    return <nav className="navbar" role="navigation" aria-label="main navigation" >
         <div className="navbar-brand">
             <a className="navbar-item" href="https://instagram.com/rrajputphotography">
-                <strong style={{ background: "black", color: "white", borderRadius: "50px", padding: "8px 11px", fontWeight: "800", margin: "1vw" }}>RR</strong>
+                <strong style={{ background: "black", color: "white", borderRadius: "50px", padding: "8px 11px", fontWeight: "800" }}>RR</strong>
             </a>
             <a role="button" className={(openMenu ? "navbar-burger" + open : "navbar-burger" + hide)} onClick={() => setOpenMenu(!openMenu)} data-target="navMenu" aria-label="menu" aria-expanded={`${openMenu}`}>
                 <span aria-hidden="true" />
@@ -32,7 +32,7 @@ const NavBar = () => {
             <div className="navbar-end">
                 <div className="navbar-item">
                     <div className="buttons">
-                        <a className="button is-primary" href="#" style={{ margin: "1vw" }}>
+                        <a className="button is-primary" href="#" >
                             <strong>Hire Me</strong>
                         </a>
 
