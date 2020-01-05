@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro&display=swap");
+
+:root {
+  --primary: royalblue !important;
+}
+.is-primary {
+  background: var(--primary) !important;
+}
+.button {
+  border-radius: 100px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0 !important;
+}
+.hide-scrollbar {
+  overflow: -moz-scrollbars-none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+}
