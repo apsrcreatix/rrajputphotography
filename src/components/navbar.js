@@ -12,11 +12,11 @@ const NavBar = () => {
             <a className="navbar-item" href="https://instagram.com/rrajputphotography">
                 <strong style={{ background: "black", color: "white", borderRadius: "50px", padding: "8px 11px", fontWeight: "800" }}>RR</strong>
             </a>
-            <a role="button" className={(openMenu ? "navbar-burger" + open : "navbar-burger" + hide)} onClick={() => setOpenMenu(!openMenu)} data-target="navMenu" aria-label="menu" aria-expanded={`${openMenu}`}>
+            <button role="button" className={(openMenu ? "navbar-burger" + open : "navbar-burger" + hide)} onClick={() => setOpenMenu(!openMenu)} data-target="navMenu" aria-label="menu" aria-expanded={`${openMenu}`}>
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
-            </a>
+            </button>
 
         </div>
         <div id="navbarBasicExample" className={(openMenu ? "navbar-menu" + open : "navbar-menu" + hide)}>
