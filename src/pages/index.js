@@ -12,7 +12,6 @@ function IndexPage() {
         <Layout>
             <>
                 <SEO title="Home" />
-                <p>Hello from Rajesh Rajput</p>
                 <InstagramCards />
                 <Testimonials />
             </>

@@ -31,12 +31,12 @@ const Testimonials = (props) => {
         <>
 
             <h1 className="title">
-                Testimonials
+                <span role="img" aria-label="love-letter">💌</span> Testimonials
             </h1>
-            <div className="columns is-desktop hide-scrollbar" style={{ overflow: "auto", margin: "0 -32px" }}>
+            <div className="tile is-ancestor" style={{ overflow: "auto", margin: "0 -32px" }}>
                 {TESTIMONIAL.map((value, index) => (
-                    <div className="column" key={value.image}>
-                        <div className="card" key={value.image}>
+                    <div className="tile " key={value.image}>
+                        <div className="card" key={value.image} >
 
                             <div className="card-content">
                                 <div className="media">
