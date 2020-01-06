@@ -5,6 +5,7 @@ import InstagramCards from "../components/instagram-posts";
 import "bulma/css/bulma.css";
 import "../styles/common.css";
 import Testimonials from "../components/testimonial";
+import Footer from "../components/footer";
 function IndexPage() {
 
     return (
@@ -12,8 +13,12 @@ function IndexPage() {
         <Layout>
             <>
                 <SEO title="Home" />
+                <br />
                 <InstagramCards />
+                <br />
                 <Testimonials />
+                <br />
+                <Footer />
             </>
         </Layout>
     )
