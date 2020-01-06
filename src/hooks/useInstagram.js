@@ -37,7 +37,6 @@ const useInstagram = () => {
   }
 }
   `);
-  console.log(data.allInstaNode.edges);
   return data.allInstaNode.edges.map(node => ({
     ...node.node.localFile.childImageSharp,
     id: node.node.id,
