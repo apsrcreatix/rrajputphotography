@@ -19,6 +19,13 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/images`,
+      },
+    },
 
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -64,7 +71,7 @@ module.exports = {
         cookieDomain: "rrajputphotography.com",
       },
     },
-    
+
 
   ],
 }
