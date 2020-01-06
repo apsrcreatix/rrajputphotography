@@ -36,7 +36,7 @@ const Testimonials = (props) => {
             <div className="tile is-ancestor" style={{ overflow: "auto", margin: "0 -32px" }}>
                 {TESTIMONIAL.map((value, index) => (
                     <div className="tile " key={value.image}>
-                        <div className="card" key={value.image} >
+                        <div className="card" key={value.image} style={{ boxShadow: "none" }}>
 
                             <div className="card-content">
                                 <div className="media">
