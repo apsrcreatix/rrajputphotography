@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import InstagramCards from "../components/instagram-posts";
 import "bulma/css/bulma.css";
 import "../styles/common.css";
-
+import Testimonials from "../components/testimonial";
 function IndexPage() {
 
     return (
@@ -14,6 +14,7 @@ function IndexPage() {
                 <SEO title="Home" />
                 <p>Hello from Rajesh Rajput</p>
                 <InstagramCards />
+                <Testimonials />
             </>
         </Layout>
     )
