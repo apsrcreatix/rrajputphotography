@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `rrajputphotography`,
-    description: `Have a look at my portfolio of photograhy gifted by apsrcreatix.`,
+    description: `Have a look at our portfolio of photography and hire us for your next session!`,
     author: `@apsrcreatix`,
   },
   plugins: [
