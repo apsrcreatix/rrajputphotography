@@ -14,17 +14,18 @@ const InstagramPosts = (props) => {
     return (
         <>
 
-            <h1 className="title">
-                <span role="img" aria-label="looking">👀</span> Instagram
-                <a href={`https://instagram.com/${username}`}
-                    style={{
-                        marginLeft: "2px"
-                    }}
-                >
-                    @{username}
-                </a>
-            </h1>
+            <h1 className="title is-3">
+                Instagram
 
+                <span role="img" aria-label="looking">👀</span>
+            </h1>
+            <p className="subtitle is-5">If you want to see my work frequently, follow me on instagram at <a href={`https://instagram.com/${username}`}
+                style={{
+                    marginLeft: "2px"
+                }}
+            >
+                @{username}
+            </a></p>
 
             <div className="columns is-mobile hide-scrollbar" style={{ overflow: "auto", margin: "0 -32px" }}>
                 {instaPhotos.map(photo => (

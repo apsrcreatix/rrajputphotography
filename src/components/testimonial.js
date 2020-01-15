@@ -30,9 +30,10 @@ const Testimonials = (props) => {
     return (
         <>
 
-            <h1 className="title">
-                <span role="img" aria-label="love-letter">💌</span> Testimonials
+            <h1 className="title is-3">
+                Testimonials <span role="img" aria-label="love-letter">💌</span>
             </h1>
+            <p className="subtitle is-5">These are reviews by our happy friends we have made through our work.</p>
             <div className="tile is-ancestor" style={{ overflow: "auto", margin: "0 -32px" }}>
                 {TESTIMONIAL.map((value, index) => (
                     <div className="tile " key={value.image}>
