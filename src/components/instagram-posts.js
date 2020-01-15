@@ -45,6 +45,14 @@ const InstagramPosts = (props) => {
                         </a>
                     </div>
                 ))}
+                <div className="column">
+                    <a href="https://www.instagram.com/rrajputphotography" target="_blank"
+                        rel="noopener noreferrer">
+                        <div style={{ width: "200px", height: "200px", background: "#fafafa", textAlign: "center", paddingTop: "45%" }}>
+                            View More <span role="img" aria-label="right arrow">➡️</span>
+                        </div>
+                    </a>
+                </div>
 
             </div>
 
