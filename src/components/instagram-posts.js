@@ -15,7 +15,7 @@ const InstagramPosts = (props) => {
         <>
 
             <h1 className="title">
-                👀 Instagram
+                <span role="img" aria-label="looking">👀</span> Instagram
                 <a href={`https://instagram.com/${username}`}
                     style={{
                         marginLeft: "2px"
