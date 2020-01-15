@@ -19,7 +19,7 @@ const InstagramPosts = (props) => {
 
                 <span role="img" aria-label="looking">👀</span>
             </h1>
-            <p className="subtitle is-5">If you want to see my work frequently, follow me on instagram at <a href={`https://instagram.com/${username}`}
+            <p className="subtitle is-5">If you want to see our latest work, follow me on instagram at <a href={`https://instagram.com/${username}`}
                 style={{
                     marginLeft: "2px"
                 }}
