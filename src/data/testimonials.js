@@ -3,7 +3,7 @@ export const TESTIMONIAL = [
         id: 1,
         name: "Ram Prabhu",
         location: "Bangalore, India",
-        tags: ["Family Photoshoot", "Kids Photoshoot"],
+        tags: ["Family", "Kids"],
         comment: "Thanks Rajesh Rajput for giving super photographs. Really enjoyed photography session with you!",
         image: "1"
     },
@@ -11,7 +11,7 @@ export const TESTIMONIAL = [
         id: 2,
         name: "Sridhar",
         location: "Bangalore, India",
-        tags: ["Pre WeddingPhotoshoot", "Couple Photoshoot"],
+        tags: ["Pre Wedding", "Couple"],
         comment: "Amazing it was! Thanks Rajesh. All the best",
         image: "2"
     },
@@ -19,16 +19,16 @@ export const TESTIMONIAL = [
         id: 3,
         name: "Ravi Rajput",
         location: "Hoshangabad, India",
-        tags: ["Family Photoshoot", "Couple Photoshoot"],
-        comment: "I wish great success for you and really appreciate the way you do photography. Best of luck!",
+        tags: ["Family", "Couple"],
+        comment: "मैं आपको शानदार सफलता की कामना करता हूं और जिस तरह से आप फोटोग्राफी करते हैं, उसे याद करते हैं। शुभकामनाएँ!",
         image: "3"
     },
     {
         id: 4,
         name: "Aditya Rajput",
         location: "Hoshangabad, India",
-        tags: ["Model Photoshoot", "Profile Pictures"],
-        comment: "I have seen his photography growing with the time. I believe that he is a awesome photographer and a mentor for those who want join him in his work.",
+        tags: ["Model", "Profile Pictures"],
+        comment: "I have seen his photography growing with time. I believe that he is an awesome photographer and a mentor for those who want to join him in his work.",
         image: "4"
     }
 ];
