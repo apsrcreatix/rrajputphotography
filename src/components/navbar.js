@@ -22,9 +22,6 @@ const NavBar = () => {
         </div>
         <div id="navbarBasicExample" className={(openMenu ? "navbar-menu" + open : "navbar-menu" + hide)}>
             <div className="navbar-start">
-                <Link className="navbar-item" to="/about-us">
-                    About Us <span role="img" aria-label="smile">😊</span>
-                </Link>
                 <Link className="navbar-item" to="/why-us">
                     Why Us <span role="img" aria-label="thinking">🤔</span>
                 </Link>
@@ -34,7 +31,7 @@ const NavBar = () => {
                 <div className="navbar-item">
                     <div className="buttons">
                         <a className="button is-primary" href="javascript:void(0)" >
-                            <strong>Hire Me <span role="img" aria-label="camera">📸</span></strong>
+                            <strong>Book Session <span role="img" aria-label="camera">📸</span></strong>
                         </a>
 
                     </div>
