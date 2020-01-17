@@ -5,7 +5,7 @@ const Layout = (props) => {
     const { children } = props;
     return <>
         <NavBar />
-        <div className="container is-fluid">
+        <div className="container is-fluid has-background-black-bis">
             {children}
         </div>
     </>

@@ -14,12 +14,12 @@ const InstagramPosts = (props) => {
     return (
         <>
 
-            <h1 className="title is-3">
+            <h1 className="title is-3 has-text-white-bis">
                 Instagram
 
                 <span role="img" aria-label="looking">👀</span>
             </h1>
-            <p className="subtitle is-5">If you want to see our latest work, follow me on instagram at <a href={`https://instagram.com/${username}`}
+            <p className="subtitle is-5 has-text-grey-light">If you want to see our latest work, follow me on instagram at <a href={`https://instagram.com/${username}`}
                 style={{
                     marginLeft: "2px"
                 }}
@@ -49,8 +49,8 @@ const InstagramPosts = (props) => {
                 <div className="column">
                     <a href="https://www.instagram.com/rrajputphotography" target="_blank"
                         rel="noopener noreferrer">
-                        <div style={{ width: "200px", height: "200px", background: "#fafafa", textAlign: "center", paddingTop: "45%" }}>
-                            View More <span role="img" aria-label="right arrow">➡️</span>
+                        <div className="has-background-grey-darker" style={{ width: "200px", height: "200px", textAlign: "center", paddingTop: "45%" }}>
+                            Explore More <span role="img" aria-label="right arrow">➡️</span>
                         </div>
                     </a>
                 </div>

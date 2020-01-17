@@ -30,14 +30,14 @@ const Testimonials = (props) => {
     return (
         <>
 
-            <h1 className="title is-3">
+            <h1 className="title is-3 has-text-white-bis">
                 Testimonials <span role="img" aria-label="love-letter">💌</span>
             </h1>
-            <p className="subtitle is-5">These are reviews by our happy friends we have made through our work.</p>
+            <p className="subtitle is-5 has-text-grey-light">These are reviews by our happy friends we have made through our work.</p>
             <div className="columns is-desktop is-multiline" style={{ overflow: "auto", margin: "0 -32px" }}>
                 {TESTIMONIAL.map((value, index) => (
                     <div className="column " key={value.image}>
-                        <div className="card" key={value.image} style={{ boxShadow: "none" }}>
+                        <div className="card has-background-black-ter" key={value.image} style={{ boxShadow: "none", borderRadius: '5px' }}>
 
                             <div className="card-content">
                                 <div className="media">
@@ -51,17 +51,17 @@ const Testimonials = (props) => {
                                     </div>
 
                                     <div className="media-content">
-                                        <p className="title is-5">{value.name}</p>
-                                        <p className="subtitle is-6">{value.location}</p>
+                                        <p className="title is-5 has-text-white-bis">{value.name}</p>
+                                        <p className="subtitle is-6 has-text-grey-light">{value.location}</p>
                                     </div>
                                 </div>
 
-                                <div className="content">
+                                <div className="content has-text-grey-lighter">
                                     {value.comment}
                                     <br />
                                     <br />
                                     <div className="tags">
-                                        {value.tags.map(tags => <span className="tag is-info is-light" key={tags}>{tags}</span>)}
+                                        {value.tags.map(tags => <span className="tag has-background-grey-dark is-dark" key={tags}>{tags}</span>)}
                                     </div>
                                 </div>
                             </div>
