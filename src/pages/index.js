@@ -17,7 +17,7 @@ function IndexPage() {
             <>
                 <SEO title="Home" />
                 <Hero />
-                <p className="caption has-text-grey-light has-text-centered" style={{ margin: '10px' }}>This photo is taken by <a href="https://unsplash.com/@rrajputphotography" target="_blank" rel="noopener noreferrer">Rajesh Rajput</a>
+                <p className="caption has-text-grey-light has-text-centered" style={{ margin: '1%' }}>This photo is taken by <a href="https://unsplash.com/@rrajputphotography" target="_blank" rel="noopener noreferrer">Rajesh Rajput</a>
                     and is avaiable at <a href="https://unsplash.com/@rrajputphotography" target="_blank" rel="noopener noreferrer">Unsplash</a> for free!</p>
                 <br />
                 <About />
