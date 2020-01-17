@@ -23,34 +23,34 @@ function IndexPage() {
                 <About />
                 <br />
                 <hr style={{
-                    border: '1px solid #333',
+                    border: '1px solid #242424',
                     height: '0.5px',
-                    width: '33.3vw',
+                    width: '33.3%',
                     justifyContent: 'center',
                     textAlign: 'center',
-                    margin: '0 33.3vw'
+                    margin: '0 33.3%'
                 }} />
                 <br />
                 <InstagramCards />
                 <br />
                 <hr style={{
-                    border: '1px solid #333',
+                    border: '1px solid #242424',
                     height: '0.5px',
-                    width: '33.3vw',
+                    width: '33.3%',
                     justifyContent: 'center',
                     textAlign: 'center',
-                    margin: '0 33.3vw'
+                    margin: '0 33.3%'
                 }} />
                 <br />
                 <Testimonials />
                 <br />
                 <hr style={{
-                    border: '1px solid #333',
+                    border: '1px solid #242424',
                     height: '0.5px',
-                    width: '33.3vw',
+                    width: '33.3%',
                     justifyContent: 'center',
                     textAlign: 'center',
-                    margin: '0 33.3vw'
+                    margin: '0 33.3%'
                 }} />
                 <br />
                 <Footer />
