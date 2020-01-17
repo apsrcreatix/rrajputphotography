@@ -35,7 +35,6 @@ function AboutUs() {
                         </div>
                     </div>
                 </div>
-                <hr />
                 <div className="column is-half">
                     <div className="columns is-desktop is-centered">
                         <div className="column is-one-quarter is-centered">
