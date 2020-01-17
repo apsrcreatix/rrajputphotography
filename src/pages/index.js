@@ -17,12 +17,41 @@ function IndexPage() {
             <>
                 <SEO title="Home" />
                 <Hero />
+                <p className="caption has-text-grey-light has-text-centered" style={{ margin: '10px' }}>This photo is taken by <a href="https://unsplash.com/@rrajputphotography" target="_blank" rel="noopener noreferrer">Rajesh Rajput</a>
+                    and is avaiable at <a href="https://unsplash.com/@rrajputphotography" target="_blank" rel="noopener noreferrer">Unsplash</a> for free!</p>
                 <br />
                 <About />
                 <br />
+                <hr style={{
+                    border: '1px solid #333',
+                    height: '0.5px',
+                    width: '33.3vw',
+                    justifyContent: 'center',
+                    textAlign: 'center',
+                    margin: '0 33.3vw'
+                }} />
+                <br />
                 <InstagramCards />
                 <br />
+                <hr style={{
+                    border: '1px solid #333',
+                    height: '0.5px',
+                    width: '33.3vw',
+                    justifyContent: 'center',
+                    textAlign: 'center',
+                    margin: '0 33.3vw'
+                }} />
+                <br />
                 <Testimonials />
+                <br />
+                <hr style={{
+                    border: '1px solid #333',
+                    height: '0.5px',
+                    width: '33.3vw',
+                    justifyContent: 'center',
+                    textAlign: 'center',
+                    margin: '0 33.3vw'
+                }} />
                 <br />
                 <Footer />
             </>
