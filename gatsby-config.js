@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `rrajputphotography`,
-    description: `Have a look at our portfolio of photography and hire us for your next session!`,
+    description: `Have a look at our portfolio of photography and book your next session with Rajesh Rajput and his team!`,
     author: `@apsrcreatix`,
+    url: "https://www.rrajputphotography.com",
+    image: "/src/static/icon_640.png"
   },
   plugins: [
     {
