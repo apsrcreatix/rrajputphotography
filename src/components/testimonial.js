@@ -29,11 +29,12 @@ const Testimonials = (props) => {
 
     return (
         <>
-
-            <h1 className="title is-3 has-text-white-bis">
-                Testimonials <span role="img" aria-label="love-letter">💌</span>
-            </h1>
-            <p className="subtitle is-5 has-text-grey-light">These are reviews by our happy friends we have made through our work.</p>
+            <div style={{ margin: '3vh 2vw' }}>
+                <h1 className="title is-3 has-text-white-bis">
+                    Testimonials <span role="img" aria-label="love-letter">💌</span>
+                </h1>
+                <p className="subtitle is-5 has-text-grey-light">These are reviews by our happy friends we have made through our work.</p>
+            </div>
             <div className="columns is-desktop is-multiline" style={{ overflow: "auto", margin: "0 -32px" }}>
                 {TESTIMONIAL.map((value, index) => (
                     <div className="column " key={value.image}>

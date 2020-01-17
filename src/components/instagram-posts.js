@@ -13,19 +13,21 @@ const InstagramPosts = (props) => {
 
     return (
         <>
-
-            <h1 className="title is-3 has-text-white-bis">
-                Instagram
-
+            <div style={{ margin: '3vh 2vw' }}>
+                <h1 className="title is-3 has-text-white-bis">
+                    Instagram
+    
                 <span role="img" aria-label="looking">👀</span>
-            </h1>
-            <p className="subtitle is-5 has-text-grey-light">If you want to see our latest work, follow me on instagram at <a href={`https://instagram.com/${username}`}
-                style={{
-                    marginLeft: "2px"
-                }}
-            >
-                @{username}
-            </a></p>
+                </h1>
+                <p className="subtitle is-5 has-text-grey-light">If you want to see our latest work, follow me on instagram at <a href={`https://instagram.com/${username}`}
+                    style={{
+                        marginLeft: "2px"
+                    }}
+                >
+                    @{username}
+                </a></p>
+            </div>
+
 
             <div className="columns is-mobile hide-scrollbar" style={{ overflow: "auto", margin: "0 -32px" }}>
                 {instaPhotos.map(photo => (
