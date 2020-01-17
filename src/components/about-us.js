@@ -26,7 +26,7 @@ function AboutUs() {
                         <div className="column">
                             <h6 className="title is-6">Rajesh Rajput</h6>
                             <p className="subtitle is-6">Professional Photographer</p>
-                            <p className="subtitle is-4">Hi <span role="img" aria-label="wave hands">👋</span>, I am a professional photographer who works on weekdays as a <a href="https://www.linkedin.com/in/irajeshrajput" target="_blank" ></a> at IBM. I have been doing this since 2015 and love it. I feel glorious and motivated when somebody uses photos clicked by me for their digital profile pictures.</p>
+                            <p className="subtitle is-4">Hi <span role="img" aria-label="wave hands">👋</span>, I am a professional photographer who works on weekdays as a <a href="https://www.linkedin.com/in/irajeshrajput" target="_blank" >Senior iOS Developer</a> at IBM. I have been doing this since 2015 and love it. I feel glorious and motivated when somebody uses photos clicked by me for their digital profile pictures.</p>
                         </div>
                     </div>
                 </div>
