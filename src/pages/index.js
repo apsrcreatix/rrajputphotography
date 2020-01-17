@@ -7,6 +7,7 @@ import "../styles/common.css";
 import Testimonials from "../components/testimonial";
 import Footer from "../components/footer";
 import About from "../components/about-us";
+import Hero from "../components/hero";
 
 function IndexPage() {
 
@@ -15,6 +16,7 @@ function IndexPage() {
         <Layout>
             <>
                 <SEO title="Home" />
+                <Hero />
                 <br />
                 <About />
                 <br />
