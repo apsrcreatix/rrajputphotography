@@ -6,6 +6,8 @@ import "bulma/css/bulma.css";
 import "../styles/common.css";
 import Testimonials from "../components/testimonial";
 import Footer from "../components/footer";
+import About from "../components/about-us";
+
 function IndexPage() {
 
     return (
@@ -13,6 +15,8 @@ function IndexPage() {
         <Layout>
             <>
                 <SEO title="Home" />
+                <br />
+                <About />
                 <br />
                 <InstagramCards />
                 <br />
