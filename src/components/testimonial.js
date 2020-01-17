@@ -34,9 +34,9 @@ const Testimonials = (props) => {
                 Testimonials <span role="img" aria-label="love-letter">💌</span>
             </h1>
             <p className="subtitle is-5">These are reviews by our happy friends we have made through our work.</p>
-            <div className="tile is-ancestor" style={{ overflow: "auto", margin: "0 -32px" }}>
+            <div className="columns is-desktop is-multiline" style={{ overflow: "auto", margin: "0 -32px" }}>
                 {TESTIMONIAL.map((value, index) => (
-                    <div className="tile " key={value.image}>
+                    <div className="column " key={value.image}>
                         <div className="card" key={value.image} style={{ boxShadow: "none" }}>
 
                             <div className="card-content">
