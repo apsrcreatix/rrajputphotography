@@ -15,8 +15,8 @@ function AboutUs() {
                             <Image fixed={
                                 {
                                     src: "https://images.unsplash.com/profile-1578849795050-b3548683f266image",
-                                    height: "200px",
-                                    width: "200px"
+                                    height: "20vh",
+                                    width: "20vh"
                                 }
                             } alt="Rajesh Rajput"
                                 style={{
@@ -42,8 +42,8 @@ function AboutUs() {
                             <Image fixed={
                                 {
                                     src: "https://images.unsplash.com/profile-1556868300956-d32903305c4c?fit=crop&w=500&h=500&crop=faces",
-                                    height: "200px",
-                                    width: "200px"
+                                    height: "20vh",
+                                    width: "20vh"
                                 }
                             } alt="Rajesh Rajput"
                                 style={{
