@@ -30,5 +30,13 @@ export const TESTIMONIAL = [
         tags: ["Model", "Profile Pictures"],
         comment: "I have seen his photography growing with time. I believe that he is an awesome photographer and a mentor for those who want to join him in his work.",
         image: "4"
+    },
+    {
+        id: 5,
+        name: "Prakash Rao",
+        location: "Bangalore, India",
+        tags: ["Famnily", "Kids"],
+        comment: "I would surely recommend a session with Rajesh. Great work!",
+        image: "5"
     }
 ];

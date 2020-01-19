@@ -37,7 +37,7 @@ const Testimonials = (props) => {
             </div>
             <div className="columns is-desktop is-multiline" style={{ overflow: "auto", margin: "0 -32px" }}>
                 {TESTIMONIAL.map((value, index) => (
-                    <div className="column " key={value.image}>
+                    <div className="column is-4" key={value.image}>
                         <div className="card has-background-black-ter" key={value.image} style={{ boxShadow: "none", borderRadius: '5px' }}>
 
                             <div className="card-content">
