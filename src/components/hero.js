@@ -3,10 +3,10 @@ import React from 'react';
 const Hero = () => {
     return <section className="hero is-link is-fullheight-with-navbar" style={{
         margin: '0 -32px',
-        backgroundImage: 'url("https://images.unsplash.com/photo-1578647285927-ca819cad19ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3238&q=80")',
+        backgroundImage: 'url("https://images.unsplash.com/photo-1579443413652-93ce6528adce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=4000&q=80")',
         backgroundColor: '#000',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
+        backgroundPosition: 'top',
         backgroundSize: 'cover',
     }}>
         <div className="hero-body">

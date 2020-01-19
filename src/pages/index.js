@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout";
 import InstagramCards from "../components/instagram-posts";
@@ -10,28 +10,16 @@ import About from "../components/about-us";
 import Hero from "../components/hero";
 
 function IndexPage() {
-
+    const [isDark, setDark] = useState(false);
     return (
 
-        <Layout>
+        <Layout isDark={isDark} handleDark={() => setDark(!isDark)}>
             <>
                 <SEO title="Home" />
                 <Hero />
-                <p className="caption has-text-grey-light has-text-centered" style={{ margin: '1%' }}>This photo is taken by <a href="https://unsplash.com/@rrajputphotography" target="_blank" rel="noopener noreferrer">Rajesh Rajput</a>
-                    and is avaiable at <a href="https://unsplash.com/@rrajputphotography" target="_blank" rel="noopener noreferrer">Unsplash</a> for free!</p>
+                <p className="caption has-text-grey-dark has-text-centered" style={{ margin: '1%' }}>This photo is taken by <a href="https://unsplash.com/@rrajputphotography" target="_blank" rel="noopener noreferrer">Rajesh Rajput </a> and is avaiable at <a href="https://unsplash.com/@rrajputphotography" target="_blank" rel="noopener noreferrer">Unsplash</a> for free!</p>
                 <br />
-                <About />
-                <br />
-                <hr style={{
-                    border: '1px solid #242424',
-                    height: '0.5px',
-                    width: '33.3%',
-                    justifyContent: 'center',
-                    textAlign: 'center',
-                    margin: '0 33.3%'
-                }} />
-                <br />
-                <InstagramCards />
+                <About isDark={isDark} />
                 <br />
                 <hr style={{
                     border: '1px solid #242424',
@@ -42,7 +30,7 @@ function IndexPage() {
                     margin: '0 33.3%'
                 }} />
                 <br />
-                <Testimonials />
+                <InstagramCards isDark={isDark} />
                 <br />
                 <hr style={{
                     border: '1px solid #242424',
@@ -53,9 +41,20 @@ function IndexPage() {
                     margin: '0 33.3%'
                 }} />
                 <br />
-                <Footer />
+                <Testimonials isDark={isDark} />
+                <br />
+                <hr style={{
+                    border: '1px solid #242424',
+                    height: '0.5px',
+                    width: '33.3%',
+                    justifyContent: 'center',
+                    textAlign: 'center',
+                    margin: '0 33.3%'
+                }} />
+                <br />
+                <Footer isDark={isDark} />
             </>
-        </Layout>
+        </Layout >
     )
 }
 

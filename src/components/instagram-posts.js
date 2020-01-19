@@ -14,12 +14,12 @@ const InstagramPosts = (props) => {
     return (
         <>
             <div style={{ margin: '3vh 2vw' }}>
-                <h1 className="title is-3 has-text-white-bis">
+                <h1 className={"title is-3 " + (props.isDark ? "has-text-white-bis" : "has-text-black-bis")}>
                     Instagram
-    
+
                 <span role="img" aria-label="looking">👀</span>
                 </h1>
-                <p className="subtitle is-5 has-text-grey-light">If you want to see our latest work, follow me on instagram at <a href={`https://instagram.com/${username}`}
+                <p className={"subtitle is-5 " + (props.isDark ? "has-text-grey-light" : "has-text-grey-dark")}>If you want to see our latest work, follow me on instagram at <a href={`https://instagram.com/${username}`}
                     style={{
                         marginLeft: "2px"
                     }}
